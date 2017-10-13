@@ -1,1 +1,18 @@
+name: InvSee
+main: CapricornOfLynx\InvSee\InvSee
+version: 1.2.0
+api: [3.0.0-ALPHA8, 3.0.0-ALPHA9]
 
+load: POSTWORLD
+author: CapricornOfLynx
+description: Seh das Inventar eines Spielers
+website: http://dokiacraft.clynx.tk
+commands:
+ invsee:
+  description: "Schau dir das Inventar der Spieler an"
+  usage: "/invsee <Spieler>"
+  permission: dokiacraft.invsee.command
+permissions:
+ dokiacraft.invsee.command:
+  description: "Erlaube ein Spieler die Funktion von InvSee"
+  default: op
